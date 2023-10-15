@@ -1,0 +1,25 @@
+/* Grouping */
+h1, h2 {
+  color: blueviolet;
+}
+/* Parent-Child */
+.box > p {
+  color: firebrick;
+}
+/* Ancestor-Descendant */
+.box li {
+  color: blue;
+}
+/* Chaining */
+li.done {
+  color: seagreen;
+}
+/* Combining Combiners */
+/* Either of the two achieves the same result. Uncomment this and comment below one to check it.
+  ul p.done {
+    font-size: 0.5rem;
+  } 
+*/
+ul > p.done {
+  font-size: 0.5rem;
+}
